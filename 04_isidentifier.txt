@@ -1,0 +1,22 @@
+#using isidentifier
+
+a='swaroop7_'
+print(a.isidentifier())
+
+b='_swaroop7'
+print(b.isidentifier())
+
+c='_7swaroop'
+print(c.isidentifier())
+
+d='s7wa_roo_p'
+print(d.isidentifier())
+
+e='7_swaroop'
+print(e.isidentifier())
+
+f='7sw_aroo_p95'
+print(f.isidentifier())
+
+g=' swa_7'
+print(g.isidentifier())
